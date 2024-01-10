@@ -1,11 +1,11 @@
 # Ensure pacman is installed before attempting to use it ----
 if (!require("pacman")) install.packages("pacman"); library(pacman)
 
-# Path to the current file, relative to the project root ----
-here::i_am("inflation_adjust_crime_cost/src/inflation_adjust_crime_cost.R")
-
 # Load necessary packages for script ----
 p_load(here, yaml, readr, feather, purrr, tidyr)
+
+# Path to the current file, relative to the project root ----
+here::i_am("inflation_adjust_crime_cost/src/inflation_adjust_crime_cost.R")
 
 # Load general functions ----
 source(here("R", "project_functions.R"))
