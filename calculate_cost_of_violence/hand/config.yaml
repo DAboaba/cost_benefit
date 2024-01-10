@@ -1,0 +1,47 @@
+---
+a_all_events_roster_features_to_use:
+    - a_bc_homicide
+    - a_bc_sexual_assault
+    - a_bc_armed_robbery
+    - a_bc_non_armed_robbery
+    - a_bc_aggravated_assault
+    - a_bc_burglary
+    - a_bc_larceny
+    - a_bc_motor_vehicle_theft
+    - a_bc_simple_assault_or_battery
+    - a_bc_arson
+    - a_bc_fraud
+    - a_bc_vandalism
+    - a_bc_drunk_driving_crash
+    - a_bc_other
+
+v_all_events_roster_features_to_use:
+    - v_bc_homicide
+    - v_bc_sexual_assault
+    - v_bc_armed_robbery
+    - v_bc_non_armed_robbery
+    - v_bc_aggravated_assault
+    - v_bc_burglary
+    - v_bc_larceny
+    - v_bc_motor_vehicle_theft
+    - v_bc_simple_assault_or_battery
+    - v_bc_arson
+    - v_bc_fraud
+    - v_bc_vandalism
+    - v_bc_drunk_driving_crash
+    - v_bc_other
+
+window_cuts                        :
+    - post_20
+    - post_20_40
+    - post_40
+
+cost_year                          :
+    - '2017'
+
+violence_cost_totals               :
+    - victim_cost
+    - cj_cost
+    - offender_productivity_cost
+    - wtp_estimate_x_cj_x_offender_productivity_cost
+    - bottom_up_x_cj_x_offender_productivity_cost

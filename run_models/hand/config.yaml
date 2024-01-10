@@ -1,0 +1,32 @@
+---
+outcomes                                                               :
+  -   post_20_victim_cost_total_2017_all_v
+  -   post_20_wtp_estimate_x_cj_x_offender_productivity_cost_total_2017_all_v
+  -   post_20_victim_cost_total_2017_all_a
+  -   post_20_wtp_estimate_x_cj_x_offender_productivity_cost_total_2017_all_a
+  -   post_20_cj_cost_total_2017_all_a
+  -   post_20_cj_cost_total_2017_all_a_plus_post_20_cj_cost_total_2017_all_v
+  -   post_20_offender_productivity_cost_total_2017_all_a
+  -   post_20_offender_productivity_cost_total_2017_all_a_plus_post_20_offender_productivity_cost_total_2017_all_v
+  -   less_inclusive_cost_total
+  -   more_inclusive_cost_total
+
+more_inclusive_post_20_cj_cost_total_2017_components                   :
+  -   post_20_cj_cost_total_2017_all_a
+  -   post_20_cj_cost_total_2017_all_v
+
+more_inclusive_post_20_offender_productivity_cost_total_2017_components:
+  -   post_20_offender_productivity_cost_total_2017_all_a
+  -   post_20_offender_productivity_cost_total_2017_all_v
+
+less_inclusive_cost_total_components                                   :
+  -   post_20_victim_cost_total_2017_all_v
+  -   post_20_victim_cost_total_2017_all_a
+  -   post_20_cj_cost_total_2017_all_a
+  -   post_20_offender_productivity_cost_total_2017_all_a
+
+more_inclusive_cost_total_components                                   :
+  -   post_20_wtp_estimate_x_cj_x_offender_productivity_cost_total_2017_all_v
+  -   post_20_wtp_estimate_x_cj_x_offender_productivity_cost_total_2017_all_a
+  -   post_20_cj_cost_total_2017_all_a_plus_post_20_cj_cost_total_2017_all_v
+  -   post_20_offender_productivity_cost_total_2017_all_a_plus_post_20_offender_productivity_cost_total_2017_all_v

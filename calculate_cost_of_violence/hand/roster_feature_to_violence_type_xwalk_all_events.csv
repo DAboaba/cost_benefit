@@ -1,0 +1,15 @@
+roster_feature,violence_type
+a_v_bc_homicide,murder
+a_v_bc_sexassault,rape
+a_v_bc_armed_robbery,armed robbery
+a_v_bc_non_armed_robbery,robbery
+a_v_bc_aggravated_assault,aggravated assaults
+a_v_bc_simple_assault,simple assaults
+a_v_bc_burg,burglary
+a_v_bc_mvtheft,motor vehicle theft
+a_v_bc_larc,larceny
+a_v_bc_drunk_driving_crash,drunk driving crash
+a_v_bc_arson,arson
+a_v_bc_vandalism,vandalism
+a_v_bc_frau,fraud
+a_v_bc_other,other
