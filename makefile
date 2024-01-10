@@ -2,6 +2,7 @@
 out_of_date:
 		cd download_and_clean_crime_costs && make
 		cd inflation_adjust_crime_cost && make
+		cd calculate_cost_of_violence && make
 
 ## timed_run    : Time & run make simultaneously
 timed_run:
