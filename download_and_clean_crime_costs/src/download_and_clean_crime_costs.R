@@ -1,11 +1,11 @@
 # Ensure pacman is installed before attempting to use it ----
 if (!require("pacman")) install.packages("pacman"); library(pacman)
 
-# Path to the current file, relative to the project root ----
-here::i_am("download_and_clean_crime_costs/src/download_and_clean_crime_costs.R")
-
 # Load necessary packages for script ----
 p_load(here, yaml, rvest, magrittr, dplyr, snakecase, stringr, tidyr, readr)
+
+# Path to the current file, relative to the project root ----
+here::i_am("download_and_clean_crime_costs/src/download_and_clean_crime_costs.R")
 
 # Load general and/or task specific functions ----
 source(here("R", "project_functions.R"))
@@ -21,8 +21,8 @@ cost_table <- read_html(task_config$cost_table_data_link) %>%
     html_table() %>%
     first()
 
-new_col_names <- c("violence_type",
-                   to_snake_case(str_subset(colnames(cost_table), ""))) %>%
+new_col_names <- c("violence_type", # create name for first column
+                   to_snake_case(colnames(cost_table)[-1])) %>% # clean other column names
     str_replace_all("_costs", "") %>%
     paste0(c("", rep("_cost", 5)))
 
